@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R 777 files/
+chmod -R 755 files/
