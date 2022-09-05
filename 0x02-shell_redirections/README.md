@@ -4,3 +4,4 @@
 3-twofiles: A script that display the content of /etc/passwd and /etc/hosts
 4-lastfiles: A script that display the last 10 lines of /etc/passwd
 5-firstlines: A sript that display the first 10 lines of /etc/passwd
+6-third_line: A script that displays the third line working directory
