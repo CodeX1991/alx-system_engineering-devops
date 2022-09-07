@@ -16,3 +16,4 @@ a script that deletes all the regular files (not the directories) with a .js ext
 16-whatsnext: a script that display the lines containing the pattern "root" and 3 lines after them in the file /etc/passwd
 17-hidethisword: A script that display the lines in the file /etc/passwd that do not contain the pattern "bin"
 18-letteronly: A script all lines of the file /etc/ssh/sshd_config starting with a letter
+19-AZ: a script that replace all characters A and c from input to Z and e respectively
