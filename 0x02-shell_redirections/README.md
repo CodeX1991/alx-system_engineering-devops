@@ -12,3 +12,4 @@ a script that deletes all the regular files (not the directories) with a .js ext
 12-newest_files: A script that display the 10 newest files in the current directory
 13-unique: A script that takes a list of words as input and prints only words that appear exactly once
 14-findthatword: A script that display pattern "root" from the file /etc/passwd
+15-countthatword: a script that display the number of lines that contain the pattern "bin" in the file
