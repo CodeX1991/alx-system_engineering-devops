@@ -20,3 +20,4 @@ a script that deletes all the regular files (not the directories) with a .js ext
 20-hiago: a script  that removes all letters c and C from input
 21-reverse: a script that reverse its input
 22-users_and_homes: a script that displays all users and their home directories, sorted by users
+9-duplicate_last_line: a script that duplicates the last line of the file iacta
