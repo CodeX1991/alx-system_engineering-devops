@@ -13,3 +13,4 @@
 
 
 10-love_exponent_breath: a script that displays the result of BREATH to the power LOVE. BREATH and LOVE are environment variables
+11-binary_to_decimal: a script that converts a number from base 2 to base 10.
