@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# stopped our 4-to_infinity_and_beyond process using ctrl+c
+NAMEID=$(pgrep -f 4-to_infinity_and_beyond)
+kill "$NAMEID"
