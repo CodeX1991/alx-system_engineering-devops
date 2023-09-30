@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Customize the termination message of the signal
+trap 'echo "I am invincible!!!"' SIGTERM
+count=1
+while [[ "$count" -gt  0 ]]; do
+	echo "To infinity and beyond"
+	count=$((count + 1))
+	sleep 2
+done
