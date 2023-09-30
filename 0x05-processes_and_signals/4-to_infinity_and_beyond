@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# A script that displays "To infinity and beyond" indefinitely
+count=1
+while [[ "$count" -gt  0 ]]; do
+	echo "To infinity and beyond"
+	count=$((count + 1))
+	sleep 2
+done
