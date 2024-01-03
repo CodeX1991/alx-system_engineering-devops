@@ -3,8 +3,8 @@
 Export data in the CSV format
 """
 
-import requests
 import csv
+import requests
 from sys import argv
 
 if __name__ == "__main__":
@@ -14,7 +14,7 @@ if __name__ == "__main__":
     except ValueError:
         exit()
 
-    # Dummy variables fro REST API
+    # Dummy variables from REST API
     api_url = "https://jsonplaceholder.typicode.com"
     user_uri = "{}/users/{}".format(api_url, empId)
     todo_uri = "{}/todos".format(user_uri)
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     # User Response
     response = requests.get(user_uri).json()
 
-    # Name of employee
+    # username of employee
     username = response.get("username")
 
     # User TODO response
