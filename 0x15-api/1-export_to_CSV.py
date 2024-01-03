@@ -36,7 +36,7 @@ if __name__ == "__main__":
 
         for elem in response:
             # Completed or noncompleted task
-            status = elem.get("title")
+            status = elem.get("completed")
 
             # The task name
             title = elem.get("title")
