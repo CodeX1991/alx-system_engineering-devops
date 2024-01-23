@@ -5,5 +5,5 @@
 
 user="$1"
 if [ "$user" ]; then
-    chsh -s "$(which bash)" "$user" && su "$user" -c "whoami"
+    sudo -u "$user" whoami
 fi
