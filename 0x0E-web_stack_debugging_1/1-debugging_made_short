@@ -2,4 +2,4 @@
 # Same as task 0 but -f is added to ln to forcefully rem the file if it exists
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 service nginx restart
-pkill -o nginx
+pkill -1 nginx
