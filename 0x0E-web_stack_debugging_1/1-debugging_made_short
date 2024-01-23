@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# Configure the server to enable Nginx on 80 port
-
+# Same as task 0 but -f is added to ln to forcefully rem the file if it exists
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-pkill -1 nginx
+pkill -9 nginx
